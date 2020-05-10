@@ -1,0 +1,42 @@
+/* Formulario */
+
+.login{
+    height: 500px;
+}
+
+
+/* Div Conocenos */
+.conocenos{
+    height: 300px;
+    background-image: url(img/conocenos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/* Footer */
+.izquierda{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    border-right: 10px white solid;
+}
+
+.medio{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.derecha{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-left: 10px white solid;
+}
+
+

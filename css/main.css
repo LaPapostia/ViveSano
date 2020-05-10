@@ -1,0 +1,867 @@
+/* Reinicio de valores por defecto */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Enriqueta', serif;
+}
+/* ---------------------------------------------Pantalla Principal---------------------------------------------------------------------------*/
+
+
+/* -----------------Tamaños------------------------*/
+
+/*Primer div Nav*/
+
+/* Definir tamaño del div vacio de la intro */
+/* Segundo Div*/
+.vacio{
+    width: 100%;
+    height: 600px;
+}
+
+
+/* Definir tamaño del div de la intro */
+/* Div Eslogan */
+.intro{
+    height: 560px;
+}
+
+/* Divs Contenido*/
+/*Tamaños Div */
+.cont{
+    height: 300px;
+}
+
+.cont2{
+    height: 550px;
+}
+
+.cont3{
+    height: 250px;
+}
+
+.cont4{
+    height: 400px;
+}
+
+
+/*Sintomas*/
+.boton_sintomas{
+    height: 150px;
+}
+.texto_sintomas{
+    height: 300px;
+}
+
+/* Recetas */
+.boton_recetas{
+    height: 200px;
+}
+
+.sitio_recetas{
+    height: 300px;
+}
+
+
+/* Guia y Dieta */
+.sitio_guia{
+    height: 130px;
+}
+
+.texto_guia{
+    height: 250px;
+}
+
+.titulo_recetas{
+    height: 200px;
+}
+
+
+
+
+
+/*-------------------------Estilos Letras / Colores Botones----------------*/
+
+/* -----------Estilos letras--------------*/
+
+
+
+
+/* -------Navigation -----------*/
+.name{
+    text-align: center;
+    font-size: 20px;
+    opacity: 100%;
+    color: white;
+}
+
+
+.btn{
+    padding-right: 25px;
+    text-decoration: none;
+    color: #555353;
+}
+
+.btn:hover {
+    color: #9B9A9A !important;
+    transition: all 0.4s ease 0s;
+}
+
+.links{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.icons{
+    padding-right: 10px;
+    color: #555353;
+}
+
+
+
+
+/*--------- Eslogan--------- */
+.intro{
+    text-align: center;
+    font-size: 40px;
+    width: 350px;
+    padding: 20px;
+    color:#565656;
+}
+
+
+
+
+
+/* -------------Sintomas---------------- */
+.texto_sintomas{
+    text-align: center;
+    padding: 60px;
+    font-size: 35px;
+    color: #7C7878;
+}
+
+
+.boton_sintomas{
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.boton_sintomas:hover {
+    background-color: #869B33;
+    transition: all 0.4s ease 0s ;
+}
+
+.link_recetas{  
+    color: white;
+    text-decoration: none;
+}
+
+
+/*-------------Recetas-----------------*/
+
+
+.titulo_recetas{
+    position: relative;
+    bottom: 0;
+    color: #7C7878;
+    text-align: center; 
+    font-size: 50px; 
+}
+
+
+
+
+/* ----------------Guia ------------*/
+.sitio_guia{
+    padding: 42px 40px 40px 20px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.sitio_guia:hover{
+    background-color: #869B33;
+    transition: all 0.4s ease 0s;
+}
+
+.texto_guia{
+    font-size: 25px;
+    padding: 40px;
+    color: #7C7878;
+}
+
+
+
+
+/* -----------Footer--------------- */
+.izquierda{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    border-right: 10px white solid;
+}
+
+.medio{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.derecha{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-left: 10px white solid;
+}
+
+
+
+
+
+
+
+/*------------ ------------Fondos----------------------------*/
+
+
+/* Colocarle imagen de fondo */
+/* Imagen de Fondo */
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+/* Sintomas */
+.imagen_sintomas{
+    height: 400px;
+    width: 560px;  
+}
+
+/* Imagen Intermedia */
+.imagen_recetas{
+    height: 500px;
+    width: 910px;
+}
+
+/* Imagen Intermedia Segunda*/
+.img_inter2{
+    height: 400px;
+    background-image: url(img/sintomas2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Div Conocenos */
+.conocenos{
+    height: 300px;
+    background-image: url(img/conocenos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+
+/*----Fondo colores--------------*/
+.boton_sintomas{background-color:    #ADC743;}
+.intro{background-color: white;}
+.texto_sintomas{background-color: #F0F0F0;}
+.boton_recetas{background-color: #ACA298;}
+.sitio_recetas{background-color: #ADC743;}
+.sitio_guia{background-color: #ADC743;}
+.texto_guia{background-color: #F0F0F0;}
+
+.head{background-color: #F8F8F8;}
+
+.cont{background-color: #F0F0F0;  }
+.cont2{background-color: #F0F0F0;  }
+.cont3{background-color: #F0F0F0;  }
+.cont4{background-color: #F0F0F0;  }
+
+.header{ background: #ADC743;}
+.sidebar1{ background: #1976D2;}
+.contenido{ background: #000;}
+.sidebar2{ background: #E64A19;}
+.footer{ background: #388E3C;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------Slider---------------------------*/
+ul{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    width: 25%;
+    height: 450px;
+    
+    float: left;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul li:nth-child(1){
+    background: url(img/albondigas.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(2){
+    background: url(img/nutela.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(3){
+    background: url(img/bizcocho.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(4){
+    background: url(img/huevo.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul:hover li{
+    width: 10%;
+}
+
+ul li:hover{
+    width: 65%;
+}
+
+ul li .contenido_slider{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    color: #fff;
+}
+
+ul li:hover .contenido_slider{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------Login / Register-----------------------------------------------*/
+
+/* Formulario */
+
+.hipervinculo{
+    text-decoration: none;
+    color: #555353;
+}
+
+.hipervinculo:hover{
+    color: #9B9A9A !important;
+    transition: all 0.4s ease 0s;
+}
+
+.formulario{
+    padding: 10px;
+    color: #7C7878;
+    height: 800px;
+    background-color: #F0F0F0;
+}
+
+.eslogan_login{
+    text-align: center;
+    font-size: 35px;
+}
+
+/*Prueba */
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+
+.form {
+  
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: auto;
+  padding: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+ font-family: 'Enriqueta', serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.form button {
+  font-family: 'Enriqueta', serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #ADC743;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #879B35;
+  transition: all 0.4s ease 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------Recetas-------------------------------------------------------------------------*/
+
+
+a{
+    text-decoration: none;
+
+}
+
+.contenedor{
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /* acomodar en fila*/
+    flex-wrap: wrap; /* si se sobrepasa la fila se posiciona abajo*/
+    justify-content: center;
+    background-color: #f0f0f0;
+    align-content: center;
+    
+}
+
+.contenedor_tarjeta{
+   margin: 20px;
+}
+
+.contenedor_tarjeta a{
+    display: inline-block;
+}
+
+.contenedor_tarjeta:hover figure{ /* quiero que cambie cuando se ponga el mouse en el contenedor*/
+   -webkit-transform: perspective(600px) rotateY(180deg);
+   -ms-transform: perspective(600px) rotateY(180deg);
+   -o-transform: perspective(600px) rotateY(180deg);
+   transform: perspective(600px) rotateY(180deg);
+
+   /* agregar sombra cuando gira */
+   -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.26);
+   -moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.26);
+   box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.26);
+}
+
+.contenedor_tarjeta:hover figure img{
+    filter: blur(5px); /* desenfocar imagen luego de pasar el mouse*/
+
+}
+
+figure{
+    width: 350px;
+    height: 350px;
+    margin: 0px 5px 5px 5px;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d; /* conservar el 3d del padre*/
+    transform: perspective(600px) rotateY(0deg); /* efecto rotatorio */
+}
+
+figure .front, figure .back{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all ease .5s;
+
+}
+
+figure .front{
+    display: block;
+}
+
+figure .back{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    color: white;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden; /* ocultar la cara al estar detras de*/
+    overflow: auto; /* evitar problemas de mucho texto*/
+
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*cambiar background del back*/
+    
+
+}
+
+.contenedor_tarjeta:nth-child(1) figure .back{ /* accder a la primera imagen */
+    background: rgba(196,132,94,1);
+    background: -moz-linear-gradient(left, rgba(196,132,94,1) 0%, rgba(193,98,68,0.92) 32%, rgba(193,98,68,0.84) 64%, rgba(193,98,68,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(196,132,94,1)), color-stop(32%, rgba(193,98,68,0.92)), color-stop(64%, rgba(193,98,68,0.84)), color-stop(100%, rgba(193,98,68,1)));
+    background: -webkit-linear-gradient(left, rgba(196,132,94,1) 0%, rgba(193,98,68,0.92) 32%, rgba(193,98,68,0.84) 64%, rgba(193,98,68,1) 100%);
+    background: -o-linear-gradient(left, rgba(196,132,94,1) 0%, rgba(193,98,68,0.92) 32%, rgba(193,98,68,0.84) 64%, rgba(193,98,68,1) 100%);
+    background: -ms-linear-gradient(left, rgba(196,132,94,1) 0%, rgba(193,98,68,0.92) 32%, rgba(193,98,68,0.84) 64%, rgba(193,98,68,1) 100%);
+    background: linear-gradient(to right, rgba(196,132,94,1) 0%, rgba(193,98,68,0.92) 32%, rgba(193,98,68,0.84) 64%, rgba(193,98,68,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4845e', endColorstr='#c16244', GradientType=1 );
+}
+
+.contenedor_tarjeta:nth-child(2) figure .back{
+
+}
+
+.contenedor_tarjeta:nth-child(3) figure .back{
+    
+}
+
+figure .back .titulo{
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+
+figure .back hr{ /* cambiar la linea separadora (hr)*/
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+figure .back p{
+    line-height: 22px;
+    font-size: 14px;
+}
+
+/* Verificar si es un smartphone para evitar bugs*/
+@media screen and (max-width: 992px){
+    figure .back{
+        backface-visibility: visible;
+        transform: perspective(600px) rotateY(0deg);
+        
+        
+    }
+
+    .contenedor_tarjeta:hover figure{
+        transform: perspective(600px) rotateY(0deg);
+    }
+
+    .contenedor_tarjeta{
+        width: 100%;
+    }
+    
+    .contenedor{
+        height: 1150px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- Responsive Values--------------------- */
+
+@media screen and (max-width: 992px){
+    body{
+        background-image: none;
+        background-color: #fff;
+    }
+    .vacio{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 190%;
+        height: 500px;
+
+    } 
+    .intro{
+        width: 75%;
+        font-size: 45px;
+        background-color: white;
+        height: 460px;
+    }
+
+    .conocenos{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 190%;
+        height: 500px;
+    }
+
+    .derecha .medio .izquierda{
+        border: 0px;
+    }
+
+    .cont{
+        height: 400px;
+    }
+
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+   
+    .intro{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    body{
+        background-image: none;
+        background-color: #fff;
+    }
+    .vacio{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position-y: 100%;
+        height: 480px;
+    } 
+
+    .intro{
+        width: 75%;
+        font-size: 35px;
+        background-color: white;
+        height: 440px;
+    }
+    
+}
+
+@media screen and (max-width: 445px){
+
+    body{
+        background-image: none;
+        background-color: #fff;
+    }
+    .vacio{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-position-y: 100%;
+        height: 480px;
+    } 
+
+    .intro{
+        width: 75%;
+        font-size: 30px;
+        background-color: white;
+        height: 440px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 300px){
+
+    body{
+        background-image: none;
+        background-color: #fff;
+    }
+    .vacio{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 400%;
+        background-position-y: 100%;
+        height: 480px;
+    } 
+
+    .intro{
+        
+        background-color: white;
+        height: 440px;
+    }
+    
+}
+
+@media screen and (max-width: 180px){
+
+    body{
+        background-image: none;
+        background-color: #fff;
+    }
+    .vacio{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position-y: 100%;
+        height: 200px;
+    } 
+    .intro{
+        opacity: 75%;
+        background-color: white;
+        height: 200px;
+    }
+    
+}
+
+
+
+/*--------------Imagenes------------------------*/
+
+@media screen and (max-width: 992px){
+    .imagen_sintomas{
+        height: 200px;
+        background-size: 100%;
+    }
+
+    .img_inter{
+        height: 200px;
+        background-size: 100%;
+    }
+
+    .img_inter2{
+        height: 200px;
+      background-size: 100%;
+    }
+}
+
+
+/*--------------Textos------------------------*/
+
+@media screen and (max-width: 992px){
+    .texto_sintomas{
+        height: 400px;
+        background-size: 100%;
+    }
+
+    .vacio_sintomas{
+        height: 300px;
+    }
+
+    .texto_recetas{
+        height: 50px;
+        background-size: 100%;
+    }
+
+    .texto_guia{
+        height: 200px;
+      background-size: 100%;
+    }
+}

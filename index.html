@@ -5,42 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViveSano</title>
-    <link rel="stylesheet" href="flexboxgrid.min.css">
-    <link rel="stylesheet" href="main.css">
-    <script src="https://kit.fontawesome.com/c74be708fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
+    <script src="https://kit.fontawesome.com/c74be708fd.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="css/img/logo1.png" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+
     <!-------------Encabezado-------------------------------------------------------->
-    <header class="row middle-xs around-xs head">
+    <div class="row middle-xs around-xs head">
         <!--
                 xs -- extra small
                 sm -- small
                 md -- medium
                 lg -- large
             -->
-        <div class="col-xs-offset-1 col-sm-12 col-md-3 first-md name">
+        <div class="col-sm-12 col-md-4 first-md name">
             <div class="header">
                 <h1>Vive Sano</h1>
                 <h2 style="color: #565656">Cuídate</h2>
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 first-xs links">
+        <div class="col-xs-12 col-md-4 first-xs links">
 
-            <p>   </p>
-            <a href="#" class="btn">Inicio</a>
-            <a href="#" class="btn">Sintomas</a>
-            <a href="#" class="btn">Recetas</a>
-            <a href="#" class="btn">Guía</a>
+           
+            <a href="sintomas.html" class="btn">Sintomas</a>
+            <a href="recetas.html" class="btn">Recetas</a>
+            <a href="#" class="btn">Guia</a>
         </div>
-        <div class="col-md-1 icons">
-            <i class="fas fa-globe-americas" style="padding-right: 10px;"></i> 
+        <div class="col-xs-12 col-md-1 icons">
+            <i class="fas fa-globe-americas" style="padding-right: 10px;"></i>
             <i class="fab fa-facebook-f"></i>
         </div>
-    </header>
+        <div class="col-xs-12 col-md-3 icons links">
+            <a href="login.html" class="btn">Ingresar</a>
+            <a href="login.html" class="btn">Registrarse</a>
+        </div>
+    </div>
 
 
     <!------------Div Imagen--------------------------------------------------------->
@@ -63,99 +70,139 @@
 
 
     <!-- Sintomas -->
-    <div class="row principal middle-xs around-xs cont">
 
-        <div class="col-xs-offset-2  col-xs-12 col-md-3 imagen_sintomas"></div>
+    <div class="row principal middle-xs  cont">
+        <div class="col-xs-12 col-md-12 texto_sintomas">
+            <b style="font-size: 40px;">Sintomas</b><br><br>
+            <b>Enterate de los</b> <b style="color: #ADC743;">Sintomas</b> más comunes relacionados con la
+            <b>Alimentación</b>, y además
+            aprende de los <b style="color: #ADC743;">Cuidados </b> más recomendados.<br><br><br><br>
+            <b></b>
+        </div>
+    </div>
 
-        <div class="col-xs-12 col-md-6 texto_sintomas">
-            <b>Enterate</b> de los <b style="color: #ADC743;">Sintomas</b> más comunes relacionados con la <b>Alimentación</b>, y además
-           aprende de los <b style="color: #ADC743;">Cuidados </b> más recomendados.<br><br><br><br>
-            <b><a href="" class="link_sintomas">Leer más <i class="fas fa-chevron-right"></i></a></b>
+    <div class="row principal middle-xs  cont">
+        <div class="col-xs-12 middle-xs col-md-4 "> </div>
+
+        <div class="col-xs-12 middle-xs col-md-4 boton_sintomas">
+            <a href="sintomas.html" class="link_recetas">Sintomas</a>
         </div>
 
-      
+        <div class="col-xs-12 middle-xs col-md-4 "></div>
+    </div>
 
-        <div class="col-xs-12 col-md-1"></div>
+
+    <!-- Div Vacio -->
+    <div class="row principal" style="height: 400px; background-color: #F0F0F0; ">
+        <div class="col-xs-12 titulo_recetas">
+            <br><br><br>
+            <h1> Recetas </h1>
+        </div>
+    </div>
+
+
+
+    <!--........... ...........Recetas ....................-->
+    <div class="row principal  cont2">
+
+        <div class="col-xs-12">
+            <ul>
+                <li>
+                    <div class="contenido_slider">
+                        <h2>ALBÓNDIGAS DE KALE (Berza)</h2>
+                        <p>Si nunca las has probado esta es tu receta de dieta:
+                            rica y diferente. La comida sana se convertirá en tu comida favorita.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="contenido_slider">
+                        <h2>UNA NUTELLA MÁS SANA</h2>
+                        <p>es posible. Lleva azúcar pero en proporciones justas.
+                            Una manera muy buena de empezar a reducir este ingrediente.</p>
+                </li>
+                <li>
+                    <div class="contenido_slider">
+                        <h2>BIZCOCHO DE MANZANA</h2>
+                        <p>Se acabó la búsqueda del mejor bizcocho de manzana saludable.
+                            Con Thermomix lo haces en 5 minutos. ¡Delicioso!.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="contenido_slider">
+                        <h2>HUEVOS AHOGADOS EN SALSA DE TOMATE CASERA NATURAL</h2>
+                        <p>Una receta deliciosa, y si preparas con antelación una salsa de tomate de calidad, 
+                            tendrás una comida saludable en menos de 15 minutos.</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
 
     </div>
 
 
-    <!-- Recetas -->
-    <div class="row principal top-xs around-xs cont2">
-
-        <div class="col-xs-offset-4 col-xs-12 col-md-2 texto_recetas">
-            <a href="" class="link_recetas">Recetas</a>
-        </div>
-
-        <div class="col-xs-12 col-md-4 sitio_recetas">
-           Se parte de la <b>deliciosa</b> forma de <b>cuidarte</b>, recetas que hacen feliz a tu <b>corazón</b>.
-        </div>
-
-        <div class="col-xs-12 col-md-2">
-
-
-        </div>
 
 
 
-    </div>
-
-
-    <!-- Imagen Intermedia -->
-    <div class="row principal top-xs around-xs cont">
-        <div class="col-xs-offset-2 col-xs-12 col-md-7 img_inter">
-
-        </div>
-        <div class="col-xs-12 col-md-3">
-
+    <!-- Div Vacio -->
+    <div class="row principal" style="height: 400px; background-color: #F0F0F0; ">
+        <div class="col-md-offset-4 col-xs-12 col-md-4 boton_sintomas">
+            <a href="recetas.html" class="link_recetas">Más Recetas</a>
         </div>
     </div>
+
+
+
 
     <!-- Guia y Dieta -->
     <div class="row principal top-xs around-xs cont3">
 
-        <div class="col-xs-offset-6 col-xs-12 col-md-1 sitio_guia">
-            <a href="" class="link_recetas">Guia</a>
+        <div class="col-xs-12 col-md-4 img_inter2">
+
         </div>
 
-        <div class="col-xs-12 col-md-4 texto_guia">
-            Registrate para comenzar a <b style="color: #ADC743;">Trabajar</b> en una buena <b>Alimentación</b> y tener un cuerpo <b style="color: #ADC743;">Sano</b>. <br><br><br>
+        <div class="col-xs-12 col-md-6 texto_guia">
+            Registrate para comenzar a <b style="color: #ADC743;">Trabajar</b> en una buena <b>Alimentación</b> y tener
+            un cuerpo <b style="color: #ADC743;">Sano</b>. <br><br><br>
             <b><a href="" class="link_sintomas">Registrarme <i class="fas fa-chevron-right"></i></a></b>
         </div>
 
-        <div class="col-xs-12 col-md-1">
-
-
+        <div class="col-xs-12 col-md-2 sitio_guia">
+            <a href="" class="link_recetas">Guia</a>
         </div>
+
+
     </div>
 
-    <!-- Imagen Intermedia Segunda-->
-    <div class="row principal top-xs around-xs cont4">
-        <div class="col-xs-offset-4 col-xs-12 col-md-4 img_inter2">
 
-        </div>
-        <div class="col-xs-12 col-md-4">
 
-        </div>
+
+    <!-- Div Vacio -->
+    <div class="row principal cont">
+        <div class="col-xs-12 vacio2"></div>
     </div>
+
 
 
     <!-- Conocenos -->
-    <div class="row principal top-xs around-xs cont3 conocenos">
-        <div class="col-xs-4 col-md-4 izquierda">
+    <div class="row principal top-xs cont3 conocenos">
+        <div class="col-xs-12 col-md-4 izquierda">
             Politécnico Jaime Isaza Cadavid
         </div>
-        <div class="col-xs-4 col-md-4 medio">
-            ViveSano <br>
+        <div class="col-xs-12 col-md-4 medio">
+            ViveSano
             Cuídate
         </div>
-        <div class="col-xs-4 col-md-4 derecha">
-            Contáctanos <br>
-            simon_gomez23201@elpoli.edu.co
+        <div class="col-xs-12 col-md-4 derecha">
+            Contáctanos
+            simon_gomez23201
+            @elpoli.edu.co
         </div>
     </div>
 
 
+
 </body>
+
 
 </html>
