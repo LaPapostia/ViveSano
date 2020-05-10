@@ -373,12 +373,13 @@ ul li:hover{
 
 ul li .contenido_slider{
     position: absolute;
-    bottom: -100%;
+    bottom: -200%;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background:  #ADC743;
     box-sizing: border-box;
     color: #fff;
+    font-size: 25px;
 }
 
 ul li:hover .contenido_slider{
@@ -720,6 +721,10 @@ figure .back p{
 
     .header{
         width: 100%;
+    }
+
+    ul li .contenido_slider{
+        font-size: 20px;
     }
 }
 
