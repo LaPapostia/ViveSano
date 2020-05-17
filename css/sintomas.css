@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Enriqueta', serif;
+}
+
+.cont_sintomas{
+    height: 300px;
+}
+
+.texto_pagina_sintomas{
+    height: 400px;
+}
+
+
+.texto_pagina_sintomas{
+    text-align: center;
+    padding: 60px;
+    font-size: 25px;
+    color: #7C7878;
+}
+
+
+
+.boton_pagina_sintomas{
+    font-size: 32px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 100px;
+    transition: all 0.4s ease 0s ;
+   
+}
+
+
+.boton_pagina_sintomas:hover {
+    font-size: 34px;
+    background-color: #869B33;
+    transition: all 0.4s ease 0s ;
+}
+
+
+.sub_sintomas{
+    text-align: center;
+    font-size: 40px;
+    height: 400px; 
+    background-color: #f0f0f0;
+    color: #7C7878;
+}
+
+
+
+
+.img_cardio{
+    background: url(img/problemas/cardiaco.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    background-size: 100%;
+}
+
+
+.img_sobrepeso{
+    background: url(img/problemas/sobrepeso.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    background-size: 100%;
+}
+
+
+
+.imagenSintomasCardiacos{
+    background: url(img/problemas/cardio1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    background-size: 100%;
+}
+
+.texto_pagina_sintomas{background-color: #F0F0F0;}
+.cont_sintomas{background-color: #F0F0F0;  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pagina Cardiaco*/
+.nombre_sintoma{
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+.nombre_sintoma h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 70px;
+    color: #7C7878;
+}
+
+
+
+
+
+
+
+.preparacion_sintomas{
+    height: 900px;
+    background-color: #f0f0f0;
+
+
+    overflow: auto;
+    color: #7C7878;
+    font-size: 25px;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+    .cont_sintomas{
+        height: 900px;
+    }
+
+    .cont{
+        height:500px;
+    }
+
+    .texto_pagina_sintomas{
+        height: 650px;
+    
+    }
+
+    .frase{
+        height: 750px;
+    }
+}
