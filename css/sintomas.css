@@ -47,13 +47,6 @@ body{
 }
 
 
-.sub_sintomas{
-    text-align: center;
-    font-size: 40px;
-    height: 400px; 
-    background-color: #f0f0f0;
-    color: #7C7878;
-}
 
 
 
@@ -100,11 +93,49 @@ body{
 
 
 
+.frase_sintomas{
+    text-align: center;
+    padding: 70px 40px 40px 40px;
+    height: 900px;
+    background-color: #f0f0f0;
+}
+.frase_sintomas p{
+    color: #7C7878;
+    font-size: 30px;
+}
+
+
+
+.ingredientes_sintomas{
+    
+    height: 900px;
+    background-color: #ADC743;
+
+
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.ingredientes_sintomas hr{
+    height: 5px;
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    opacity: .5;
+}
 
 
 
 
+.titulo_sintomas{
+    height: 300px;
+    background-color: #f0f0f0;
 
+    color: #7C7878;
+    font-size: 40px;
+    text-align: center;
+}
 
 
 
@@ -121,8 +152,28 @@ body{
     color: #7C7878;
 }
 
+.sub_sintomas{
+    text-align: center;
+    font-size: 40px;
+    height: 500px; 
+    background-color: #f0f0f0;
+    color: #7C7878;
+}
 
 
+
+
+
+.des_general{
+    height: 300px;
+    background-color: #f0f0f0;
+
+
+    overflow: auto;
+    color: #7C7878;
+    font-size: 25px;
+    padding: 40px;
+}
 
 
 
@@ -137,6 +188,34 @@ body{
     font-size: 25px;
     padding: 40px;
 }
+
+
+.factor_riesgo{
+    height: 900px;
+    background-color: #f0f0f0;
+
+
+    overflow: auto;
+    color: #7C7878;
+    font-size: 25px;
+    padding: 40px;
+}
+
+.factor_riesgo2{
+    height: 900px;
+    background-color: #f0f0f0;
+
+
+    overflow: auto;
+    color: #7C7878;
+    font-size: 25px;
+    padding: 40px;
+}
+
+
+
+
+
 
 
 
@@ -181,12 +260,49 @@ body{
         height:500px;
     }
 
+    .titulo_sintomas{
+        font-size: 25px;
+    }
+
+    .des_general{
+        height: 750px;
+    }
+
     .texto_pagina_sintomas{
-        height: 650px;
+        height: 750px;
     
     }
 
     .frase{
         height: 750px;
+    }
+
+    .preparacion{
+        font-size: 20px;
+        
+    }
+
+    .titulo_recetas{
+        font-size: 25px;
+    }
+    
+    .preparacion_sintomas{
+        height: 1100px;
+        font-size: 20px;
+    }
+
+    .factor_riesgo{
+        height: 1300px;
+        font-size: 20px;
+    }
+
+    .factor_riesgo2{
+        height: 2000px;
+        font-size: 20px;
+    }
+
+    .ingredientes_sintomas{
+        height: 1100px;
+        font-size: 20px;
     }
 }

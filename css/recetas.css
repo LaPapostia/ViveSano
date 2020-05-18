@@ -12,6 +12,11 @@
     font-size: 40px; 
 }
 
+.sencillas{
+    height: 300px; 
+    background-color: #F0F0F0;
+}
+
 a{
     text-decoration: none;
 
@@ -174,6 +179,15 @@ figure .back p{
         height: 1150px;
         align-items: center;
         justify-content: center;
+    }
+
+    .sencillas{
+        font-size: 30px;
+        height: 400px;
+    }
+
+    .divisor_recetas{
+        font-size: 30px;
     }
 }
 
