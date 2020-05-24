@@ -59,7 +59,7 @@ body{
     height: 400px;
     background-color: #f0f0f0;
     border-radius: 5px;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 
@@ -71,7 +71,7 @@ body{
     height: 400px;
     background-color: #f0f0f0;
     border-radius: 5px;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 
@@ -270,7 +270,7 @@ body{
 
     .texto_pagina_sintomas{
         height: 750px;
-    
+        font-size: 30px;
     }
 
     .frase{

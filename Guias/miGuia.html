@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>mi Guía</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/guia.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/sintomas.css">
+
+	<link rel="stylesheet" href="../css/flexboxgrid.min.css">
+
+	<script src="https://kit.fontawesome.com/c74be708fd.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/png" href="../css/img/logo1.png" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-------------Encabezado-------------------------------------------------------->
+	<div class="row middle-xs around-xs head">
+		<!--
+                xs -- extra small
+                sm -- small
+                md -- medium
+                lg -- large
+            -->
+		<div class="col-sm-12 col-md-4 first-md name">
+			<div class="header">
+				<h1>Vive Sano</h1>
+				<h2 style="color: #565656">Cuídate</h2>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 first-xs links">
+
+			<a href="../index.html" class="btn">Inicio</a>
+			<a href="../sintomas.html" class="btn">Sintomas</a>
+			<a href="../recetas.html" class="btn">Recetas</a>
+
+		</div>
+		<div class="col-xs-12 col-md-1 icons">
+			<i class="fas fa-globe-americas" style="padding-right: 10px;"></i>
+			<i class="fab fa-facebook-f"></i>
+		</div>
+		<div class="col-xs-12 col-md-3 icons links">
+			<a href="../guia.html" class="btn">Guía</a>
+		</div>
+	</div>
+
+
+	<!-- Div Vacio-->
+	<div class="row principal" style="height: 200px; background-color: #F0F0F0;">
+		<div class="col-xs-12"></div>
+	</div>
+
+
+	<!-- Titulo -->
+	<div class="row principal middle-xs  cont_sintomas">
+		<div class="col-xs-12 col-md-12 texto_pagina_sintomas">
+			<b style="font-size: 60px;">Mi Guía</b><br><br>
+			<p style="font-size: 35px;">Con lo que <b>conóces</b> ya eres capaz
+				de crear tu <b style="color: #ADC743;">propia</b> guía para mantener tu cuerpo <b
+					style="color: #ADC743;">sano</b>,
+				recuérda todos los <b style="color: #ADC743;">concejos</b> y aprovecha las <b
+					style="color: #ADC743;">recetas</b> que para ti creámos.
+
+			</p>
+		</div>
+	</div>
+
+
+
+	<!-- Div Vacio-->
+	<div class="row principal middle-xs  cont_sintomas">
+		<div class="col-xs-12 col-md-12 texto_pagina_sintomas">
+			<b style="font-size: 40px;">Sientete libre de modificar la tabla como gustes, organizala de tal forma
+				que te sea fácil entenderla
+			</b>
+		</div>
+	</div>
+
+
+
+	<div class="row lista" id="lista">
+
+
+
+
+		<!-- Desayuno-->
+		<div class="col-xs-6  texto_pagina_sintomas" data-id="1">
+			<b style="font-size: 40px;"><b style="color: #ADC743;">Desayuno</b></b><br><br>
+			<p style="text-align: center;">Un desayuno provisto de buena es escensial para comenzar el dia</p>
+
+		</div>
+
+		<!-- Primera Comida-->
+		<div class="col-xs-6 persona" data-id="2">
+			<div class="foto">
+				<img src="../css/imgGuia/1.png" alt="">
+			</div>
+			<div class="nombre">
+				<div>
+					<p class="label">Nombre</p>
+					<p class="dato">Carlos Arturo</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- MediaMañana-->
+		<div class="col-xs-6  texto_pagina_sintomas" data-id="3">
+			<b style="font-size: 40px;">Merienda-Mediamañana</b><br><br>
+			<p style="text-align: center;">Nunca dejes que pase más de 5 horas entre comidas durante el día… será
+				perjudicial para ti y tu metabolismo</p>
+
+		</div>
+
+
+		<!-- Segunda Comida-->
+		<div class="col-xs-6 persona" data-id="4">
+			<div class="foto">
+				<img src="../css/imgGuia/1.png" alt="">
+			</div>
+			<div class="nombre">
+				<div>
+					<p class="label">Nombre</p>
+					<p class="dato">Carlos Arturo</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Almuerzo -->
+		<div class="col-xs-6  texto_pagina_sintomas" data-id="5">
+			<b style="font-size: 40px;"><b style="color: #ADC743;">Almuerzo</b></b><br><br>
+			<p style="text-align: center;">Quizás la comida más importante para que tu día aproveche.</p>
+
+		</div>
+
+
+		<!-- Tercera Comida-->
+		<div class="col-xs-6 persona" data-id="6">
+			<div class="foto">
+				<img src="../css/imgGuia/1.png" alt="">
+			</div>
+			<div class="nombre">
+				<div>
+					<p class="label">Nombre</p>
+					<p class="dato">Carlos Arturo</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Comida -->
+		<div class="col-xs-6  texto_pagina_sintomas" data-id="7">
+			<b style="font-size: 40px;"><b style="color: #ADC743;">Cena</b></b><br><br>
+			<p style="text-align: center;">Recuérda no acostarte con el estómago vacío, pero tampoco tan lleno.</p>
+
+		</div>
+
+
+		<!-- Cuarta Comida-->
+		<div class="col-xs-6 persona" data-id="8">
+			<div class="foto">
+				<img src="../css/imgGuia/1.png" alt="">
+			</div>
+			<div class="nombre">
+				<div>
+					<p class="label">Nombre</p>
+					<p class="dato">Carlos Arturo</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+	<!-- Div Vacio-->
+	<div class="row principal" style="height: 200px; background-color: #F0F0F0;">
+		<div class="col-xs-12"></div>
+	</div>
+
+
+	<!-- Conocenos -->
+	<div class="row principal top-xs cont3 conocenos">
+		<div class="col-xs-12 col-md-4 izquierda">
+			Politécnico Jaime Isaza Cadavid
+		</div>
+		<div class="col-xs-12 col-md-4 medio">
+			ViveSano
+			Cuídate
+		</div>
+		<div class="col-xs-12 col-md-4 derecha">
+			Contáctanos
+			simon_gomez23201
+			@elpoli.edu.co
+		</div>
+	</div>
+
+
+	<!-- Conocenos -->
+	<div class="row principal top-xs cont3 conocenos">
+		<div class="col-xs-12 derecha">
+			© 2020-2020 Vive Sano. All rights reserved.
+		</div>
+
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+	<script src="../js/guia.js"></script>
+</body>
+
+</html>

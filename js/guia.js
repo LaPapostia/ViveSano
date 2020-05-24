@@ -6,9 +6,7 @@ Sortable.create(lista, {
     //ghostClass: "fantasma",
     dragClass: "drag",
 
-    onEnd: () => {
-        console.log('Se inserto un elemento')
-    },
+    
     group: "lista-personas",
     store: {
         //guardar el orden de la lista

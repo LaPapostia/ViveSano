@@ -5,7 +5,63 @@
 }
 
 
+.frase_guia{
+    text-align: center;
+    padding: 20px;
+    height: 800px;
+    background-color: #f0f0f0;
+}
 
+.frase_guia p{
+    color: #7C7878;
+    font-size: 25px;
+}
+
+
+
+.ingredientes_guia{
+    
+    height: 800px;
+    background-color: #ADC743;
+
+
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.ingredientes_guia hr{
+    height: 5px;
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+
+
+.des_dietaBalanceada{
+    height: 400px;
+    background-color: #f0f0f0;
+
+	text-align: center;
+    overflow: auto;
+    color: #7C7878;
+    font-size: 25px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------Guia Personalizada---------------------------*/
 .contenedor-lista {
 	background: #F3F5FA;
 	box-shadow: 0px 0px 20px rgba(149, 153, 159, .16);
@@ -26,7 +82,8 @@
 
 .lista {
 	padding: 40px;
-	width: 100%;
+	
+	background-color: #f0f0f0;
 }
 
 .lista .persona {
@@ -75,4 +132,27 @@
 	width: 70px;
 	border-radius: 100%;
 	margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+	.frase_guia{
+		height: 1000px;
+	}
+
+	.ingredientes_guia{
+		padding-top: 30px;
+		height: 800px;
+	}
 }
