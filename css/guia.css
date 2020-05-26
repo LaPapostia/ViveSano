@@ -54,6 +54,21 @@
 
 
 
+.texto_MiGuia{
+    height: 250px;
+}
+
+
+.texto_MiGuia{
+    text-align: center;
+    padding: 60px;
+    font-size: 25px;
+    color: #7C7878;
+}
+
+
+
+
 
 
 
@@ -138,6 +153,53 @@
 
 
 
+/*------------------MiGuia----------------------------*/
+
+.nav li{
+
+	padding-left: 50px;
+	text-align: center;
+	width: 500px;
+}
+
+
+ul, ol {
+	list-style:none;
+}
+
+
+
+.nav li a {
+	background-color: #ADC743;
+	color:white;
+	text-decoration:none;
+	padding:10px 12px;
+	border-radius: 10px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
 
 
 
@@ -147,6 +209,12 @@
 
 
 @media screen and (max-width: 992px){
+	.nav li{
+		padding-left: 0;
+		width: 150px;
+	}
+
+
 	.frase_guia{
 		height: 1000px;
 	}
